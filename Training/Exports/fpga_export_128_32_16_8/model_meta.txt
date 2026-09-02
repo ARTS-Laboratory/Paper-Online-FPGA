@@ -1,0 +1,8 @@
+windowSize=128
+numClasses=2
+Weight export convention: W is [inputs x neurons], y = x*W + b
+Activation: ReLU after fc1, fc2, fc3; Softmax after fc_out
+fc1: W=128x32 (inputs x neurons), b=32x1
+fc2: W=32x16 (inputs x neurons), b=16x1
+fc3: W=16x8 (inputs x neurons), b=8x1
+fc_out: W=8x2 (inputs x neurons), b=2x1
